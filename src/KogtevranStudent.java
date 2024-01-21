@@ -57,7 +57,7 @@ public class KogtevranStudent extends HogwartsStudent{
 
     @Override
     public String toString() {
-        return getName()
+        return getName() + " "
                 + "magicPower{" + getMagicPower() +
                 ",transgressionDistance" + getTransgressionDistance() +
                 "smart=" + smart +

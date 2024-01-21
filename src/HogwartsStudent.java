@@ -33,7 +33,7 @@ public class HogwartsStudent {
           this.transgressionDistance = transgressionDistance;
      }
 
-     public void compareAnyStudent(HogwartsStudent second) {
+     public void compareAnyStudents(HogwartsStudent second) {
           if (this.getMagicPower() > second.getMagicPower()) {
                System.out.println(this.getName() + " обладает большей силой магии, чем " + second.getName());
           } else if (this.getMagicPower() < second.getMagicPower()) {
@@ -45,11 +45,11 @@ public class HogwartsStudent {
 
      public void compareAnyStudent(HogwartsStudent second) {
           if (this.getTransgressionDistance() > second.getTransgressionDistance()) {
-               System.out.println(this.getName() + " обладает большей силой магии, чем " + second.getName());
+               System.out.println(this.getName() + " обладает большей трансгресией, чем " + second.getName());
           } else if (this.getTransgressionDistance() < second.getTransgressionDistance()) {
-               System.out.println(second.getName() + " обладает большей силой магии, чем " + this.getName());
+               System.out.println(second.getName() + " обладает большей трансгресией, чем " + this.getName());
           } else {
-               System.out.println(second.getName() + " и " + this.getName() + " равны по силе магии");
+               System.out.println(second.getName() + " и " + this.getName() + " равны по расстоянию трансгресии");
           }
      }
 
