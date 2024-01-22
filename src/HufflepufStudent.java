@@ -47,7 +47,7 @@ public class HufflepufStudent extends HogwartsStudent {
 
     @Override
     public String toString() {
-        return getName()
+        return getName() + " "
                 + "magicPower{" + getMagicPower() +
                 ",transgressionDistance" + getTransgressionDistance() +
                 "hardWork=" + hardWork +
