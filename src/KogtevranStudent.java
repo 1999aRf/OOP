@@ -1,8 +1,8 @@
 public class KogtevranStudent extends HogwartsStudent{
-    int smart;
-    int wise;
-    int witty;
-    int fullOfCreativity;
+    private int smart;
+    private int wise;
+    private int witty;
+    private int fullOfCreativity;
 
     public KogtevranStudent(String name, int magicPower, int transgressionDistance, int smart, int wise, int witty, int fullOfCreativity) {
         super(name, magicPower, transgressionDistance);

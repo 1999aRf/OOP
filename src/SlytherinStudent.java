@@ -1,9 +1,9 @@
 public class SlytherinStudent extends HogwartsStudent{
-    int cunning;
-    int decisiveness;
-    int ambition;
-    int resourcefulness;
-    int lustForPower;
+    private int cunning;
+    private int decisiveness;
+    private int ambition;
+    private int resourcefulness;
+    private int lustForPower;
 
     public SlytherinStudent(String name, int magicPower, int transgressionDistance, int cunning, int decisiveness, int ambition, int resourcefulness, int lustForPower) {
         super(name, magicPower, transgressionDistance);
